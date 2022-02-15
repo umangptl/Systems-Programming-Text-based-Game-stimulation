@@ -1,0 +1,44 @@
+Here is an example input block:
+3
+0 -1 1 -1 2
+2 0 -1 -1 -1
+2 -1 -1 0 -1
+4
+1 0
+0 2
+2 2
+2 1
+look
+clean
+2:clean
+east
+look
+0:clean
+look
+exit
+To that input corresponds the following output:
+Room 2, dirty, neighbors 0 to the east, contains:
+PC
+human 2
+
+2 grumbles. Respect is now 39
+
+2 grumbles a lot. Respect is now 36
+2 leaves towards the east.
+
+You leave towards the east.
+
+Room 0, half-dirty, neighbors 1 to the south 2 to the west, contains:
+animal 0
+PC
+human 2
+
+0 licks your face a lot. Respect is now 39
+2 grumbles. Respect is now 38
+2 leaves towards the south
+
+Room 0, clean, neighbors 1 to the south 2 to the west, contains:
+animal 0
+PC
+
+Goodbye!
